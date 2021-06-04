@@ -1,3 +1,5 @@
+package gohelp
+
 type Status string
 func (s Status)StatusName(a, b, c, d string) int64 {
   if s == "a" {
